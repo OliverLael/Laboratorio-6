@@ -1,0 +1,86 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color:yellow !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333 !important;
+}
+
+.nav-link {
+    color: #333 !important;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #000 !important;
+}
+
+/* Contenedor */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+/* Estilo de los sets */
+h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #ff6600;
+}
+
+p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Imágenes */
+.img-fluid {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Botón */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+/* Alertas */
+.alert-warning {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}

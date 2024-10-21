@@ -1,41 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
     <style>
-        .active { font-weight: bold; }
+        .active {
+            font-weight: bold;
+        }
     </style>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg" style="background-color: yellow;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Mi Sitio</a>
+            <a class="navbar-brand" href="#">Lego</a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina1.html">Página 1</a>
+                        <a class="nav-link" href="pagina1.html">Sets Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina2.html">Página 2</a>
+                        <a class="nav-link" href="pagina2.html">Compras de otros clientes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina3.html">Página 3</a>
+                        <a class="nav-link" href="pagina3.html">Rebajas</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container mt-5">
-        <h1 class="text-center">Bienvenido a Mi Sitio Web</h1>
-        <p>Este es el inicio de mi página.</p>
-        <img src="https://via.placeholder.com/300" class="img-fluid rounded mx-auto d-block" alt="Imagen ejemplo">
-    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="imagenes/lego.webp" alt="First slide">
+            </div>
+        </div>
+
+
+        <div class="container mt-5">
+            <h1 class="text-center">Historia de Lego</h1>
+            <p>LEGO es una marca de juguetes danesa reconocida principalmente por sus bloques de plástico
+                interconectables 1932 por Ole Kirk Christiansen, éste abrió un taller de carpintería junto a un pequeño
+                grupo de aprendices, hasta 1949, LEGO se dedicó casi exclusivamente a producir juguetes de madera de
+                alta calidad.</p>
+            <img src="imagenes/logo.webp" class="img-fluid rounded mx-auto d-block" alt="Imagen ejemplo">
+        </div>
+
+
+
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h2>Video Juegos</h2>
+                    <p>LEGO empezó a hacer videojuegos en 2005 con una serie de videojuegos sobre STAR WARS. La idea era
+                        un poco extraña ya que tradicionalmente LEGO no se basaba en la idea clásica de LEGO, pero aun
+                        así tuvo mucho éxito, y hoy en día cada videojuego de LEGO es basado en personajes como Batman,
+                        Indiana Jones, Harry Potter, entre otros. LEGO también hace videojuegos principalmente para
+                        Nintendo DS o para los ordenadores con conexión a internet, juegos 100% LEGO. Es decir no de
+                        otras marcas como Lego Batman, Harry Potter, Spiderman, etc. y También se hacen serie animadas
+                        en televisión y hasta películas o cortos como publicidad para poder vender y hacer conocer más
+                        su marca.</p>
+                    <img src="imagenes/lego starwars.webp" class="img-fluid" alt="Imagen 1">
+                </div>
+                <div class="col-md-4">
+                    <h2>LegoLand</h2>
+                    <p>Los parques LegoLand son parques temáticos de LEGO. El primer LegoLand fue abierto en Billund,
+                        Syddanmark, Dinamarca en 1968. El segundo LegoLand a abrir fue en Windsor, Inglaterra en 1996.
+                        LegoLand California fue el tercero LegoLand en abrir en el mundo,inaugurado 1999, está situado
+                        en CarlsBad, California, Estados Unidos. El cuarto es LegoLand Deutschland que fue abierto en
+                        2005, en Günzburg. El quinto LegoLand es LegoLand Florida, en Florida, Estados Unidos. El sexto
+                        y último parque temático LegoLand es el Lego Malasia Resort inaugurado en 2012. Según algunos
+                        datos oficiales de LEGO el próximo LegoLand se abrirá en Dubai este 2016, en octubre.[1] También
+                        hay proyectos sobre futuras construcciones de parques LegoLand en India pero su construcción no
+                        comenzó, en Corea del Sur con posible apertura en 2017[2], en Japón con apertura aún
+                        desconocida[3] y en Shanghai sólo se anunciaron inversiones[4]. Nuevas formas de jugar</p>
+                    <img src="imagenes/legoland.jfif" class="img-fluid" alt="Imagen 2">
+                </div>
+                <div class="col-md-4">
+                    <h2>Lego Mindstorm</h2>
+                    <p>LEGO Mindstroms es una Serie de juegos LEGO que fue iniciada en 1997/1998 cuando la "revolución
+                        de los videojuegos" se creo, y se empezó a vender en el Septiembre de 1998.La idea es que varias
+                        Piezas Mindstroms se pongan en conjunto con piezas normales de LEGO, para que cuando se encienda
+                        la Pieza Mindstrom principal todo el conjunto de piezas se mueva por si solo. Esta forma de
+                        jugar fue también reconocida como educativa en el tema de mecánica y como entender que es la
+                        tecnología y la mecánica. Muchas escuelas hoy en día hacen cursos con LEGO Mindstroms. Aunque
+                        durante la "revolución de los videojuegos", antes de esta nueva y única serie, LEGO pasó por 11
+                        años con grandes dificultades.</p>
+                    <img src="imagenes/legomind.jpg" class="img-fluid" alt="Imagen 3">
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </body>
+
 </html>
